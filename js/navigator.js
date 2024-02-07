@@ -2,23 +2,22 @@
  *  Websites list in order
  */
 var websites = [
-    
-  
-    "https://lehigh-university-design.github.io/project-1-awb324/",
-    "https://lehigh-university-design.github.io/project-1-sit225/",
-    "https://lehigh-university-design.github.io/project-1-adrawoot/",
-    "https://lehigh-university-design.github.io/project-1-mmurata22/",
-    "https://lehigh-university-design.github.io/project-1-SSShee77y/",
-    "https://lehigh-university-design.github.io/project-1-eyt225/",
-    "https://lehigh-university-design.github.io/project-1-shirls326/",
-    "https://lehigh-university-design.github.io/project-1-Colin941/",
-    "https://lehigh-university-design.github.io/project-1-ellafall/",
-    "https://lehigh-university-design.github.io/project-1-laurj46/",
-    "https://lehigh-university-design.github.io/project-1-kaydolan/",
-    "https://lehigh-university-design.github.io/project-1-dsw225/",
-  		
-     
-];
+    "https://lehigh-university-design.github.io/project-1-awb324/", // 1
+    "https://lehigh-university-design.github.io/project-1-sit225/", // 2
+    "https://lehigh-university-design.github.io/project-1-lar326/", // 3
+    "https://lehigh-university-design.github.io/project-1-adrawoot/", // 4
+    "https://lehigh-university-design.github.io/project-1-mmurata22/", // 5
+    "https://lehigh-university-design.github.io/project-1-SSShee77y/", // 6
+    "https://lehigh-university-design.github.io/project-1-eyt225/", // 7
+    "https://lehigh-university-design.github.io/project-1-shirls326/", // 8
+    "https://lehigh-university-design.github.io/project-1-Colin941/", // 9 
+    "https://lehigh-university-design.github.io/project-1-ellafall/", // 10
+    "https://lehigh-university-design.github.io/project-1-laurj46/", // 11
+    "https://lehigh-university-design.github.io/project-1-kaydolan/", // 12
+    "https://lehigh-university-design.github.io/project-1-dsw225/", // 13
+    "https://owen-zematis.github.io/Project-1/", // 14
+    "https://lehigh-university-design.github.io/project-1-timaldroubi/", // 15
+    ];
 
 /*
  *  Website index variable
