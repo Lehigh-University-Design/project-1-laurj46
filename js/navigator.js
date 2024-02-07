@@ -2,29 +2,33 @@
  *  Websites list in order
  */
 var websites = [
-    "1.html",
-    "2.html",
-    "3.html",
-    "4.html"
+    
+  
+    "https://lehigh-university-design.github.io/project-1-awb324/",
+    "https://lehigh-university-design.github.io/project-1-sit225/",
+    "https://lehigh-university-design.github.io/project-1-adrawoot/",
+    "https://lehigh-university-design.github.io/project-1-mmurata22/",
+    "https://lehigh-university-design.github.io/project-1-SSShee77y/",
+    "https://lehigh-university-design.github.io/project-1-eyt225/",
+    "https://lehigh-university-design.github.io/project-1-shirls326/",
+    "https://lehigh-university-design.github.io/project-1-Colin941/",
+    "https://lehigh-university-design.github.io/project-1-ellafall/",
+    "https://lehigh-university-design.github.io/project-1-laurj46/",
+    "https://lehigh-university-design.github.io/project-1-kaydolan/",
+    "https://lehigh-university-design.github.io/project-1-dsw225/",
+  		
+     
 ];
 
 /*
- *  Website index variables
  *  Website index variable
  */
 var currentIndex = 0;
-var path = window.location.href; 
-var page = path.split("/").pop(); // comment this out for external pages
-var currentIndex = websites.indexOf(page);
 
 window.onload = function getCurrentIndex() {
-    var path = window.location.href; 
-    var page = path.split("/");
+    var path = window.location.href.split("#")[0]; 
+    currentIndex = websites.indexOf (path);
 
-    if (page.includes("https") || page.includes("http"))
-        currentIndex = websites.indexOf(path);
-    else
-        currentIndex = websites.indexOf(page.pop());
 }
 
 /*
@@ -34,6 +38,7 @@ function goToPrevious() {
     currentIndex = (currentIndex - 1 + websites.length) % websites.length;
     location.href = websites[currentIndex];
 }
+
 /*
  *  Goes to the next page from the index of current page in list
  */
@@ -41,6 +46,7 @@ function goToNext() {
     currentIndex = (currentIndex + 1) % websites.length;
     location.href = websites[currentIndex];
 }
+
 /*
  *  Goes to random page that is not the current page
  */

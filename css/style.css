@@ -1,6 +1,8 @@
 body {
     font-family: 'IBM Plex Mono', monospace;
     margin: 20px;
+
+    background-color: rgb(153, 179, 153);
 }
 
 
@@ -20,7 +22,7 @@ h1 {
 
 h2, h3, h4 {
     font-weight: 300;
-    color: darkgreen;
+    color:rgb(192, 13, 13);
 }
 
 .post {
@@ -33,6 +35,14 @@ h2, h3, h4 {
         height: auto;
         display: block;
     }
+}
+
+.image-container img {
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    margin-right: 10px;
+    vertical-align: top;
 }
 
 .highlight {
